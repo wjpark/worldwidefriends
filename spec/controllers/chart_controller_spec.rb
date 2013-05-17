@@ -7,4 +7,8 @@ describe ChartController do
     expect(response).to be_success
   end
 
+  it "must get Facebook data" do
+
+  end
+
 end
