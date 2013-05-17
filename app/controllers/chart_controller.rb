@@ -25,8 +25,11 @@ class ChartController < ApplicationController
     datapoints = datapoints.reverse[0..10]
     render :json => {
       "graph" => {
-                 "title" => "World Wide Friends",
-                 "datasequences" => [
+                  "title" => "World Wide Friends",
+                  "xAxis" : {
+                    "showEveryLabel" : true
+                  },
+                  "datasequences" => [
                    {
                    "title" => "Cities",
                   "datapoints" => datapoints
