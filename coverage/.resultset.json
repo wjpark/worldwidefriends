@@ -1,0 +1,28 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/wjpark/Desktop/wk8_misc/statusboard/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
+      "/Users/wjpark/Desktop/wk8_misc/statusboard/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/wjpark/Desktop/wk8_misc/statusboard/app/helpers/chart_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/wjpark/Desktop/wk8_misc/statusboard/app/controllers/chart_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1368741979
+  }
+}
