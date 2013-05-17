@@ -27,6 +27,7 @@ class ChartController < ApplicationController
                       "graph" => {
                                   "title" => "World Wide Friends",
                                   "refreshEveryNSeconds" => 10,
+                                  "total" => true,
                                   "xAxis" => {
                                     "showEveryLabel" => true
                                   },
