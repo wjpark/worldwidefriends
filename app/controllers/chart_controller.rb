@@ -26,6 +26,7 @@ class ChartController < ApplicationController
     render :json => {
                       "graph" => {
                                   "title" => "World Wide Friends",
+                                  "refreshEveryNSeconds" => 10,
                                   "xAxis" => {
                                     "showEveryLabel" => true
                                   },
