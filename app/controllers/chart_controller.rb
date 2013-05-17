@@ -33,7 +33,7 @@ class ChartController < ApplicationController
                                   },
                                   "datasequences" => [
                                    {
-                                   "title" => "Cities",
+                                   "title" => "Top 10 Cities",
                                   "datapoints" => datapoints
                                    },
                                  ]
