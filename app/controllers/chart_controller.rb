@@ -22,7 +22,7 @@ class ChartController < ApplicationController
         "value" => item[1]
       }
     end
-
+    datapoints = datapoints[0..10]
     render :json => {
       "graph" => {
                  "title" => "World Wide Friends",
