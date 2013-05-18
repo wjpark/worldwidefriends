@@ -17,3 +17,5 @@
 # Ignore api key and secret
 .env
 
+/coverage
+

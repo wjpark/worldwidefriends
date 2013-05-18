@@ -1,6 +1,11 @@
 Statusboard::Application.routes.draw do
 
+  root :to => 'chart#index'
+  get 'morris.json' => 'chart#morris'
   get 'statusboard.json' => 'chart#statusboard'
+
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
