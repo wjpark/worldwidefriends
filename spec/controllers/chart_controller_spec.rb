@@ -8,10 +8,6 @@ describe ChartController do
       expect(response).to be_success
     end
 
-    it "should assign location_counts to be an array" do
-      get :statusboard
-      expect(assigns(:location_counts)).to be_an Array
-    end
   end
 end
 
@@ -29,7 +25,7 @@ end
 
     it "assigns a data array" do
       get :morris
-      expect(assigns(:data)).to be_an Array
+      expect(assigns(:locations)).to be_an Array
 
     end
   end

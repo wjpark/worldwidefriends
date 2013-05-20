@@ -2,7 +2,7 @@ class ChartController < ApplicationController
 
   def statusboard
     location = Location.new
-    locations = location.fetch_locations
+    @locations = location.fetch_locations
 
     render :json => {
                       "graph" => {
@@ -15,7 +15,7 @@ class ChartController < ApplicationController
                         "datasequences" => [
                          {
                          "title" => "Top 10 Cities",
-                          "datapoints" => locations
+                          "datapoints" => @locations
                          },
                         ]
                       }
@@ -24,8 +24,8 @@ class ChartController < ApplicationController
 
   def morris
     location = Location.new
-    locations = location.fetch_locations
+    @locations = location.fetch_locations
 
-    render :json => locations
+    render :json => @locations
   end
 end

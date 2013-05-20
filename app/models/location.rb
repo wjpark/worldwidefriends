@@ -21,6 +21,6 @@ class Location
         :value => item[1]
       }
     end
-    datapoints.reverse[0..20]
+    datapoints.reverse[0..10]
   end
 end

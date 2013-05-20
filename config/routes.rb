@@ -1,7 +1,7 @@
 Statusboard::Application.routes.draw do
 
   root :to => 'chart#index'
-  get 'morris.json' => 'chart#morris'
+  get 'morris.json' => 'chart#morris',:as => :morris
   get 'statusboard.json' => 'chart#statusboard'
 
 

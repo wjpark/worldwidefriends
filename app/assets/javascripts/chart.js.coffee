@@ -10,5 +10,10 @@ $(document).ready ->
         xkey: 'title'
         ykeys: ['value']
         labels: ['Cities']
+        barColors: ['#ffffff']
+        gridTextColor: ['yellow']
+        xLabelAngle: 45
+        gridTextSize: 10
+        hideHover: false
       )
   )
